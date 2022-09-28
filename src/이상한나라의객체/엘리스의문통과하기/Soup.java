@@ -8,4 +8,9 @@ public class Soup extends Food {
         this.remainingChance = 5;
         this.foodName = "Soup";
     }
+
+    @Override
+    protected void foodFeatures() {
+        System.out.println("i'm hot");
+    }
 }

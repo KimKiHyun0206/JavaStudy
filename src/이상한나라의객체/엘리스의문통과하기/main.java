@@ -10,8 +10,8 @@ public class main {
 
         alice.tellOwnPlace();
 
-        //alice.eatFood(soup);
-        alice.eatFood(water);
+        alice.eatFood(soup);
+        //alice.eatFood(water);
 
         alice.passTheDoor(door);
     }

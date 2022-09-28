@@ -8,4 +8,9 @@ public class Water extends Food {
         this.remainingChance = 5;
         this.foodName = "Water";
     }
+
+    @Override
+    protected void foodFeatures() {
+        System.out.println("gulp gulp");
+    }
 }

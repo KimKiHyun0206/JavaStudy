@@ -20,4 +20,6 @@ public abstract class Food {
     protected int getRemainingChance() {
         return remainingChance;
     }
+
+    protected abstract void foodFeatures();
 }
